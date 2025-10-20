@@ -20,6 +20,8 @@ References
 
 My previous version was based on a PyXLL macro; the new version is based on a PyXLL function (set as macro=True).
 
+Link to the new function: (https://github.com/khoitsma/Universal-Dropdowns/blob/main/)select_from_pyxll_module.py)
+
 ```
 @xl_func(
     "str db_name, str r_filter_value: var",
