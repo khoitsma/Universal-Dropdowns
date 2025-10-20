@@ -5,54 +5,20 @@ import re
 from pyxll import (
     xl_app,
     xl_func,
-    xl_macro,
-    xl_menu,
-    Formatter,
-    xl_return_type,
     xlfCaller,
     schedule_call,
-    xlcAlert,
 )
-
-import PySide6
 
 from PySide6 import QtCore, QtGui, QtWidgets
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtCore import QSize
 from PySide6.QtGui import QScreen, QFont
 from PySide6.QtWidgets import (
-    QApplication,
     QDialog,
-    QHBoxLayout,
     QVBoxLayout,
-    QLineEdit,
-    QListWidget,
-    QDialogButtonBox,
     QInputDialog,
     QPushButton,
-    QGraphicsView,
-    QSizePolicy,
 )
-
-_qt_app = None
-
-
-def get_qt_app():
-    """
-    Returns a QApplication instance.
-
-    Must be called before showing any dialogs.
-    """
-
-    global _qt_app
-    if _qt_app is None:
-
-        if not QtWidgets.QApplication.instance():
-            app = QtWidgets.QApplication(sys.argv)
-        else:
-            app = QtWidgets.QApplication.instance()
-
-    return _qt_app
 
 
 class Form0(QDialog):
@@ -195,9 +161,6 @@ def select_from_PyXLL_dropdown_function_TR(dropdown_name=None, filter_string="")
             except:
                 pass
 
-        # make sure Qt has been initialized
-        app = get_qt_app()
-
         # create the custom form
         dlg = Form0()
 
@@ -217,7 +180,7 @@ def select_from_PyXLL_dropdown_function_TR(dropdown_name=None, filter_string="")
         text = QInputDialog.getItem(
             dlg,
             dialog_title,
-            "Selection:                           ",
+            "Selection: ",
             picked_list,
             current=max(0, min(dropdown_index, len(picked_list) - 1)),
         )
@@ -236,4 +199,3 @@ def select_from_PyXLL_dropdown_function_TR(dropdown_name=None, filter_string="")
 
     # Schedule calling the update function
     schedule_call(update_func)
-
