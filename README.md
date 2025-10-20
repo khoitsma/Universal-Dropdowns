@@ -7,16 +7,18 @@ The idea is so simple: what if a user wanted to access standard dropdown choices
 
 References
 
-- [Universal Dropdowns in Excel Dec 2024](https://www.mathpax.com/universal-dropdowns-in-excel-dec-2024/)
+- *[Much Better Dropdowns Jan 2025](https://www.mathpax.com/much-better-dropdowns-jan-2025/)*
 
-- [Excel Dropdown with NO worksheet data list (with video) Nov 2020
-](https://www.mathpax.com/excel-dropdown-with-no-worksheet-data-list/)
+- *[Universal Dropdowns in Excel Dec 2024](https://www.mathpax.com/universal-dropdowns-in-excel-dec-2024/)*
+
+- *[Excel Dropdown with NO worksheet data list (with video) Nov 2020
+](https://www.mathpax.com/excel-dropdown-with-no-worksheet-data-list/)*
 
 ---
 
 20 October 2025
 
-### And now I offer an updated, more compact version of the universal dropdown.
+### And now I offer an updated, more compact version of the universal dropdown for Excel.
 
 My previous version was based on a PyXLL macro; the new version is based on a PyXLL function (set as macro=True).
 
@@ -50,6 +52,7 @@ When called, the function presents a PySide6 QDialog dropdown incorporating the 
 * a default list is coded
 * no macro buttons, clean interface
 * thanks to [Tony Roberts](https://www.pyxll.com/blog/author/tony/) for assistance with the `PyXll schedule_call`
+
 
 ***Video/Screenshot***
 
