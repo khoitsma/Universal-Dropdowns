@@ -1,5 +1,5 @@
 # Universal-Dropdowns
-### Universal Dropdowns Using PyXLL
+### Universal Dropdowns Using **PyXLL**
 
 What does that mean?
 
@@ -38,7 +38,7 @@ def select_from_PyXLL_dropdown_function_TR(dropdown_name=None, filter_string="")
 
 When called, the function presents a PySide6 QDialog dropdown incorporating the following features:
 * short and simple
-* dropdown lists are set in Python as a global variable (executed once, no recalculation)
+* dropdown lists can be set in Python as a global variable (executed once, no recalculation)
 * avoids the restrictions of Excel built-in dropdowns
 * dropdown is available in any workbook, any sheet
 * regex filtering
@@ -47,11 +47,10 @@ When called, the function presents a PySide6 QDialog dropdown incorporating the 
 * calling cell address or name (if named) is built into the dialog title
 * a default list is coded
 * no macro buttons, clean interface
+* thanks to [Tony Roberts](https://www.pyxll.com/blog/author/tony/) for assistance with the `PyXll schedule_call`
 
 ***Video/Screenshot***
 
 > - [Excel video snippet](https://khoitsmahq.firstcloudit.com/images/universal_dropdown_select_from_PyXLL_dropdown_function_TR.mp4)
 > 
-> - !(https://khoitsmahq.firstcloudit.com/images/universal_dropdown_select_from_PyXLL_dropdown_function_TR.png)
->
-> - !(https://github.com/khoitsma/Universal-Dropdowns/blob/main/universal_dropdown_select_from_PyXLL_dropdown_function_TR.png)
+> - ![Excel screenshot](https://khoitsmahq.firstcloudit.com/images/universal_dropdown_select_from_PyXLL_dropdown_function_TR.png)
