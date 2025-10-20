@@ -16,7 +16,7 @@ References
 
 20 October 2025
 
-And now I offer an updated, more compact version of the universal dropdown.
+And now I offer an updated, more compact version of the universal dropdown.$$
 
 My previous version was based on a PyXLL macro; the new version is based on a PyXLL function (set as macro=True).
 
@@ -47,3 +47,9 @@ When called, the function presents a PySide6 QDialog dropdown incorporating the 
 * calling cell address or name (if named) is built into the dialog title
 * a default list is coded
 * no macro buttons, clean interface
+
+***Video/Screenshot***
+
+> [Excel video snippet]https://khoitsmahq.firstcloudit.com/images/universal_dropdown_select_from_PyXLL_dropdown_function_TR.mp4
+> 
+> ![Excel screenshot]https://khoitsmahq.firstcloudit.com/images/universal_dropdown_select_from_PyXLL_dropdown_function_TR.png
