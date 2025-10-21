@@ -26,7 +26,7 @@ Link to the new function: (https://github.com/khoitsma/Universal-Dropdowns/blob/
 
 ```
 @xl_func(
-    "str db_name, str r_filter_value: var",
+    "str dropdown_name, str filter_string: var",
     none_value="  » » »",
     volatile=False,
     macro=True,
@@ -36,7 +36,7 @@ def select_from_PyXLL_dropdown_function_TR(dropdown_name=None, filter_string="")
     """[PyXLL] Execute a PySide6 dialog based on a (pre-coded) list of lists
 
     :param dropdown_name:  [apples,countries,three letter names,cars] Defaults to None
-    :param r_filter_value: a filter pattern (regex allowed). Defaults to ""
+    :param filter_strung: a filter pattern (regex allowed). Defaults to ""
     """
 ```
 
