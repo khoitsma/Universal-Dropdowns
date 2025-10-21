@@ -3,7 +3,7 @@
 
 What does that mean?
 
-The idea is so simple: what if a user wanted to access standard dropdown choices on all his workbooks, with pure workbooks (no macros, no validation lists, no piddlin’ setups).
+The idea is so simple: what if a user wanted to access standard dropdown choices on ***all*** his workbooks, with ***pure*** workbooks (no macros, no validation lists, no piddlin’ setups).
 
 References
 
@@ -57,5 +57,6 @@ When called, the function presents a PySide6 QDialog dropdown incorporating the 
 ***Video/Screenshot***
 
 > - [Excel video snippet](https://khoitsmahq.firstcloudit.com/images/universal_dropdown_select_from_PyXLL_dropdown_function_TR.mp4)
-> 
+
+
 > - ![Excel screenshot](https://khoitsmahq.firstcloudit.com/images/universal_dropdown_select_from_PyXLL_dropdown_function_TR.png)
