@@ -48,10 +48,10 @@ When called, the function presents a PySide6 QDialog dropdown incorporating the 
 * regex filtering
 * dropdown index is set to current value
 * custom None value is returned to avoid formula overwrite
-* calling cell address or name (if named) is built into the dialog title
+* calling cell address or cell name (if named) is built into the dialog title
 * a default list is coded
 * no macro buttons, clean interface
-* thanks to [Tony Roberts](https://www.pyxll.com/blog/author/tony/) for assistance with the `PyXll schedule_call`
+* thanks to [Tony Roberts](https://www.pyxll.com/blog/author/tony/) for assistance with the `PyXLL schedule_call`
 
 
 ***Video/Screenshot***
