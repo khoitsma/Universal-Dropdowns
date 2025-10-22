@@ -6,7 +6,6 @@ from pyxll import (
     xl_app,
     xl_func,
     xlfCaller,
-    schedule_call,
 )
 
 from PySide6 import QtCore, QtGui, QtWidgets
@@ -188,14 +187,13 @@ def select_from_PyXLL_dropdown_function_TR(dropdown_name, filter_string=""):
     picked_item = r_entry_answer.Value
 
     # text is a tuple, our desired answer is text[0]
-    # text[1] is zero if no selection is made, or if dialog is cancelled
+    # text[1] is zero if no selection is made, or if dialog is canceled
     # print(text)
     if text[1] != 0:
         picked_item = text[0]
 
-    def update_func():
-        # post the user-selected results
-        r_entry_answer.Value = picked_item
+    # post the user-selected results
+    r_entry_answer.Value = picked_item
 
-    # Schedule calling the update function
-    schedule_call(update_func)
+    # there is no return coded
+    # therefore None will be returned
