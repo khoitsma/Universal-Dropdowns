@@ -44,7 +44,7 @@ When called, the function presents a PySide6 QDialog dropdown incorporating the 
 * short and simple
 * dropdown lists can be set in Python as a global variable (executed once, no recalculation)
 * avoids the restrictions of Excel built-in dropdowns
-* dropdown is available in any workbook, any sheet
+* dropdown is available in ***any workbook, any sheet***
 * regex filtering
 * dropdown index is set to current value
 * custom None value is returned to avoid formula overwrite
