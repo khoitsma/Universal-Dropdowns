@@ -51,7 +51,7 @@ When called, the function presents a PySide6 QDialog dropdown incorporating the 
 * calling cell address or cell name (if named) is built into the dialog title
 * a default list is coded
 * no macro buttons, clean interface
-* thanks to [Tony Roberts](https://www.pyxll.com/blog/author/tony/) for assistance
+* thanks to [Tony Roberts](https://www.pyxll.com/blog/author/tony/) for his assistance
 
 
 ***Video/Screenshot***
