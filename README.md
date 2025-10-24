@@ -3,7 +3,7 @@
 
 What does that mean?
 
-The idea is so simple: what if a user wanted to access standard dropdown choices on ***all*** his workbooks, with ***pure*** workbooks (no macros, no validation lists, no piddlin’ setups).
+The idea is so simple: what if a user wanted to access standard dropdown choices on ***all*** his or her workbooks, with ***pure*** workbooks (no macros, no validation lists, no piddlin’ setups).
 
 References
 
