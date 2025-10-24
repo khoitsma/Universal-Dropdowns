@@ -59,6 +59,23 @@ class Form0(QDialog):
         self.setLayout(layout)
 
 
+_qt_app = None
+
+def get_qt_app():
+    """Returns a QApplication instance.
+    Must be called before showing any dialogs.
+    """
+
+    global _qt_app
+    if _qt_app is None:
+
+        if not QtWidgets.QApplication.instance():
+            app = QtWidgets.QApplication(sys.argv)
+        else:
+            app = QtWidgets.QApplication.instance()
+
+    return _qt_app
+
 # for my demo function
 # build a demo list of lists
 #
@@ -159,6 +176,9 @@ def select_from_PyXLL_dropdown_function_TR(dropdown_name, filter_string=""):
         except:
             pass
 
+    # make sure Qt has been initialized
+    app = get_qt_app()
+
     # create the custom form
     dlg = Form0()
 
@@ -197,3 +217,4 @@ def select_from_PyXLL_dropdown_function_TR(dropdown_name, filter_string=""):
 
     # there is no return coded
     # therefore None will be returned
+
